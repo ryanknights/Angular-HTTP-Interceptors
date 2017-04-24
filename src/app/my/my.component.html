@@ -1,0 +1,40 @@
+<div class="panel panel-default">
+	<div class="panel-heading"><strong>GET</strong></div>
+	<div class="panel-body">
+		<a href="#" class="btn btn-primary" (click)="getRequest()">Send GET Request</a>
+	</div>
+</div>
+
+<div class="panel panel-default">
+	<div class="panel-heading"><strong>POST</strong></div>
+	<div class="panel-body">
+		<form (ngSubmit)="postRequest()">
+			<button type="submit" class="btn btn-primary">Send POST Request</button>
+		</form>
+	</div>
+</div>
+
+<div class="panel panel-default">
+	<div class="panel-heading"><strong>PUT</strong></div>
+	<div class="panel-body">
+		<form (ngSubmit)="putRequest()">
+			<button type="submit" class="btn btn-primary">Send PUT Request</button>
+		</form>
+	</div>
+</div>
+
+<div class="panel panel-default">
+	<div class="panel-heading"><strong>DELETE</strong></div>
+	<div class="panel-body">
+		<a href="#" class="btn btn-primary" (click)="deleteRequest()">Send DELETE Request</a>
+	</div>
+</div>
+
+<div class="panel panel-default">
+	<div class="panel-heading"><strong>Error</strong></div>
+	<div class="panel-body">
+		<form (ngSubmit)="errorRequest()">
+			<button type="submit" class="btn btn-primary">Send Error Request</button>
+		</form>
+	</div>
+</div>
